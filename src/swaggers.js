@@ -1,12 +1,13 @@
 const swaggerJSDoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 
+
 const options = {
   definition: {
     openapi: "3.0.0",
     info: { title: "API de DIGITAL EVENT HUB", version: "1.0.0" },
   },
-  apis: ["src/routes/routesNotification.js", "src/routes/routesUser.js"],
+  apis: ["src/routes/routesNotification.js", "src/routes/routesUser.js", "./app.js"],
 };
 
 const swaggerSpec = swaggerJSDoc(options);

@@ -26,6 +26,7 @@
     "mysql2": "^3.10.2",
     "nodemailer": "^6.9.14",
     "sequelize": "^6.37.3",
+    "stripe": "^16.2.0",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.1"
   },
